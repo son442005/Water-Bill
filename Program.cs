@@ -97,9 +97,9 @@ class Program
     {
         double environmentFees = price / 10;
 
-        double fee = price / 10;
+        double taxVAT = price / 10;
 
-        double totalBill = price + environmentFees + fee;
+        double totalBill = price + environmentFees + taxVAT;
 
         Console.WriteLine($"Total water bill: {totalBill} VND");
 
